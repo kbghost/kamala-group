@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ══════════════════════════════════════════════════
+   THÈME SOMBRE (défaut) — palette nuit
+══════════════════════════════════════════════════ */
+:root {
+  --kg-bg:           #0A0A12;
+  --kg-bg-alt:       #0E1020;
+  --kg-surface:      #12152A;
+  --kg-border:       #1A1F38;
+  --kg-border-light: #252D55;
+  --kg-text:         #F4F6FF;
+  --kg-text-muted:   #8A91B0;
+  --kg-text-faint:   #727BAA;
+
+  /* Ombres */
+  --kg-shadow-sm:    0 2px 8px rgba(0,0,0,0.5);
+  --kg-shadow-md:    0 8px 32px rgba(0,0,0,0.6);
+
+  /* Glassmorphism sombre */
+  --kg-glass-bg:     rgba(27,46,107,0.18);
+  --kg-glass-border: rgba(27,46,107,0.35);
+
+  /* StatsBanner */
+  --kg-stats-bg:     #1B2E6B;
+  --kg-stats-text:   #ffffff;
+
+  /* Section label couleur */
+  --kg-label-color:  #C0272D;
+}
+
+/* ══════════════════════════════════════════════════
+   THÈME CLAIR — adapté aux couleurs du logo KG
+   Bleu marine #1B2E6B + Rouge #C0272D sur blanc
+══════════════════════════════════════════════════ */
+html.light {
+  --kg-bg:           #F8F9FF;
+  --kg-bg-alt:       #EEF1FB;
+  --kg-surface:      #FFFFFF;
+  --kg-border:       #D0D6F0;
+  --kg-border-light: #B8C0E0;
+  --kg-text:         #0D1533;
+  --kg-text-muted:   #4A5580;
+  --kg-text-faint:   #5C6690;
+
+  --kg-shadow-sm:    0 2px 8px rgba(27,46,107,0.08);
+  --kg-shadow-md:    0 8px 32px rgba(27,46,107,0.12);
+
+  --kg-glass-bg:     rgba(255,255,255,0.75);
+  --kg-glass-border: rgba(27,46,107,0.18);
+
+  --kg-stats-bg:     #1B2E6B;
+  --kg-stats-text:   #ffffff;
+
+  --kg-label-color:  #C0272D;
+}
+
+/* Scrollbar */
+html { scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: #1B2E6B var(--kg-bg); }
+html::-webkit-scrollbar       { width: 4px; }
+html::-webkit-scrollbar-track { background: var(--kg-bg); }
+html::-webkit-scrollbar-thumb { background: #C0272D; border-radius: 2px; }
+
+@layer base {
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    background-color: var(--kg-bg);
+    color: var(--kg-text);
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+  ::selection { background: #C0272D; color: #fff; }
+}
+
+@layer components {
+
+  /* ── Gradient brand ── */
+  .brand-text {
+    background: linear-gradient(135deg, #3A52B8 0%, #C0272D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* ── Glass card ── */
+  .glass-card {
+    background: var(--kg-glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--kg-glass-border);
+  }
+
+  /* ── Section label ── */
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--kg-label-color);
+  }
+
+  /* ── Bg helpers via CSS vars ── */
+  .bg-theme-base    { background-color: var(--kg-bg); }
+  .bg-theme-alt     { background-color: var(--kg-bg-alt); }
+  .bg-theme-surface { background-color: var(--kg-surface); }
+  .border-theme     { border-color: var(--kg-border); }
+  .border-theme-light { border-color: var(--kg-border-light); }
+  .text-theme       { color: var(--kg-text); }
+  .text-theme-muted { color: var(--kg-text-muted); }
+
+  /* ── Buttons ── */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 font-semibold text-sm tracking-wider uppercase text-white;
+    background: linear-gradient(135deg, #1B2E6B 0%, #2A4099 100%);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-primary::after {
+    content:''; position:absolute; inset:0;
+    background: linear-gradient(135deg, #C0272D 0%, #D93B41 100%);
+    opacity:0; transition:opacity 0.35s ease;
+  }
+  .btn-primary:hover::after { opacity:1; }
+  .btn-primary > * { position:relative; z-index:1; }
+  .btn-primary:hover { transform:translateY(-2px); box-shadow:0 12px 32px rgba(192,39,45,0.35); }
+
+  .btn-red {
+    @apply inline-flex items-center gap-2 px-6 py-3 font-semibold text-sm tracking-wider uppercase text-white;
+    background: linear-gradient(135deg, #C0272D 0%, #D93B41 100%);
+    transition: all 0.3s ease;
+  }
+  .btn-red:hover { background:linear-gradient(135deg,#D93B41,#E84B51); transform:translateY(-2px); box-shadow:0 12px 32px rgba(192,39,45,0.4); }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 border font-semibold text-sm tracking-wider uppercase;
+    border-color: var(--kg-border-light);
+    color: var(--kg-text);
+    transition: all 0.3s ease;
+  }
+  .btn-outline:hover { border-color:#C0272D; color:#C0272D; background:rgba(192,39,45,0.06); }
+
+  .section-padding { @apply py-20 lg:py-28; }
+}
+
+/* ══════════════════════════════════════
+   SWIPER overrides
+══════════════════════════════════════ */
+.swiper-button-next,
+.swiper-button-prev {
+  width:28px!important; height:28px!important;
+  background:rgba(27,46,107,0.65)!important;
+  backdrop-filter:blur(6px)!important;
+  border:1px solid rgba(192,39,45,0.35)!important;
+  border-radius:0!important;
+  top:auto!important; bottom:56px!important;
+  transition:all 0.25s ease!important; margin:0!important;
+  /* Masquées sur mobile : le swipe tactile suffit, et ça évite toute
+     collision visuelle avec le bouton WhatsApp flottant en bas à droite. */
+  display:none!important;
+}
+@media (min-width: 640px) {
+  .swiper-button-next, .swiper-button-prev { display:flex!important; }
+}
+.swiper-button-prev { right:52px!important; left:auto!important; }
+.swiper-button-next { right:16px!important; left:auto!important; }
+.swiper-button-next:hover,.swiper-button-prev:hover {
+  background:#C0272D!important; border-color:#C0272D!important;
+}
+.swiper-button-next::after,.swiper-button-prev::after {
+  font-size:9px!important; color:#fff!important; font-weight:900!important;
+}
+.swiper-pagination-bullet {
+  background:rgba(244,246,255,0.35)!important;
+  width:5px!important; height:5px!important; opacity:1!important;
+}
+.swiper-pagination-bullet-active {
+  background:#C0272D!important; width:18px!important;
+  border-radius:3px!important; transition:width 0.3s ease!important;
+}
+.swiper-pagination { bottom:40px!important; left:24px!important; right:auto!important; width:auto!important; text-align:left!important; }
+
+/* Lightbox */
+.lightbox-overlay {
+  position:fixed; inset:0; background:rgba(10,10,18,0.96);
+  z-index:9999; display:flex; align-items:center; justify-content:center;
+}
+
+/* Partners marquee */
+@keyframes marquee {
+  0%  { transform: translateX(0%); }
+  100%{ transform: translateX(-50%); }
+}
+.animate-marquee { animation: marquee 30s linear infinite; }
+
+/* ── Transitions thème sur tous les éléments ── */
+*, *::before, *::after {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+}
+/* Exclure transitions sur animations Framer Motion */
+[data-framer-component-type], img, svg {
+  transition: none !important;
+}
+
+/* ── Hero Slider — Ken Burns zoom + révélation du contenu, 100% piloté en CSS ── */
+@keyframes kenburns {
+  from { transform: scale(1); }
+  to   { transform: scale(1.13); }
+}
+
+.hero-bg {
+  transform: scale(1);
+  animation: none;
+}
+
+/* Le zoom ne démarre que sur la slide active (Swiper gère cette classe lui-même) */
+.swiper-slide-active .hero-bg,
+.swiper-slide-duplicate-active .hero-bg {
+  animation: kenburns 5.9s ease-out forwards;
+}
+
+/* ── Révélation du texte — chaque enfant direct de .hero-content est invisible
+   par défaut, et se révèle uniquement quand sa slide devient active ── */
+.hero-content > * {
+  opacity: 0;
+}
+
+@keyframes heroReveal {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroRevealLine {
+  from { opacity: 0; transform: scaleX(0); }
+  to   { opacity: 1; transform: scaleX(1); }
+}
+
+.swiper-slide-active .hero-content > *,
+.swiper-slide-duplicate-active .hero-content > * {
+  animation: heroReveal 0.7s ease-out forwards;
+}
+
+.swiper-slide-active .hero-content > .hero-sep,
+.swiper-slide-duplicate-active .hero-content > .hero-sep {
+  animation: heroRevealLine 0.5s ease-out forwards;
+  transform-origin: left;
+}
+
+/* Décalage progressif (stagger) des 6 éléments de contenu */
+.hero-content > *:nth-child(1) { animation-delay: 0.05s !important; }
+.hero-content > *:nth-child(2) { animation-delay: 0.18s !important; }
+.hero-content > *:nth-child(3) { animation-delay: 0.28s !important; }
+.hero-content > *:nth-child(4) { animation-delay: 0.36s !important; }
+.hero-content > *:nth-child(5) { animation-delay: 0.45s !important; }
+.hero-content > *:nth-child(6) { animation-delay: 0.55s !important; }
+
+/* Bouton scroll indicator — petit rebond infini, indépendant de Swiper */
+.hero-bounce {
+  animation: heroBounce 1.8s ease-in-out infinite;
+}
+@keyframes heroBounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(5px); }
+}
