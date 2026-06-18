@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Award, Users, Calendar, Globe } from 'lucide-react';
 import logoImg from '../assets/logo/kamala-logo.jpeg';
+import aboutImg from '../assets/images/about.jpg';
 
 const stats = [
   { icon: Award,    value: 100, suffix: '+', label: 'Projets Réalisés' },
@@ -58,7 +59,7 @@ export default function About() {
           {/* Image */}
           <motion.div custom={0} variants={up} initial="hidden" animate={inView ? 'visible' : 'hidden'} className="relative">
             <div className="relative overflow-hidden">
-              <img src="../assets/images/about.jpg"
+              <img src={aboutImg}
                 alt="Kamala Group Event" className="w-full h-[420px] md:h-[500px] object-cover" />
               <div className="absolute top-4 left-4 w-16 h-16 border-l-2 border-t-2 border-kg-navy" />
               <div className="absolute bottom-4 right-4 w-16 h-16 border-r-2 border-b-2 border-kg-red" />
