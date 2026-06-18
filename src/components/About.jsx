@@ -58,7 +58,7 @@ export default function About() {
           {/* Image */}
           <motion.div custom={0} variants={up} initial="hidden" animate={inView ? 'visible' : 'hidden'} className="relative">
             <div className="relative overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80"
+              <img src="../assets/images/about.jpg"
                 alt="Kamala Group Event" className="w-full h-[420px] md:h-[500px] object-cover" />
               <div className="absolute top-4 left-4 w-16 h-16 border-l-2 border-t-2 border-kg-navy" />
               <div className="absolute bottom-4 right-4 w-16 h-16 border-r-2 border-b-2 border-kg-red" />
