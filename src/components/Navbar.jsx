@@ -6,7 +6,7 @@ import logoImg from '../assets/logo/kamala-logo.jpeg';
 import ThemeToggle from './ThemeToggle';
 import { useTheme } from '../context/ThemeContext';
 
-const WHATSAPP_NUMBER = "22997000000";
+const WHATSAPP_NUMBER = "22945036838"; // Remplace par le vrai numéro
 
 const navLinks = [
   { href: '#accueil',  label: 'Accueil' },

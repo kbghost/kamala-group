@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 
-const WHATSAPP_NUMBER = "22997000000"; // ← Remplace par le vrai numéro admin
+const WHATSAPP_NUMBER = "22945036838"; // ← Remplace par le vrai numéro admin
 
 export default function WhatsAppButton() {
   const [showTooltip, setShowTooltip] = useState(false);

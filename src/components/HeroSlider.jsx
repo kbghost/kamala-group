@@ -23,7 +23,7 @@ const slides = [
     accent: "d'Exception",
     sub: 'Festivals, galas, conférences — nous transformons chaque moment en expérience inoubliable, à Abomey-Calavi et partout au Bénin.',
     cta: 'Découvrir',
-    image: 'https://image.cueup.io/unsafe/h:2194/q:75/rt:auto/w:1920/plain/https://cdn.cueup.io/user_uploads/images/3812e6b4-8e35-40f6-b736-4f22c136a27c.jpeg',
+    image: 'https://lanation.bj/storage/assets/2025/05/kmN6WnbUXTe7ji2S_495141051_122150184248392272_710998818955100859_n.jpg.webp',
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const slides = [
     accent: 'Artistique',
     sub: 'De la conception à la scène, nous donnons vie aux projets culturels les plus audacieux, en lien avec les traditions béninoises.',
     cta: 'Explorer',
-    image: 'https://prod.jaspir.com/wp-content/uploads/2025/02/BIM-252.webp',
+    image: 'https://tourisme.gouv.bj/storage/media/posts/POST_685a9ed25aa76685a9ed25aa79.jpg',
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const slides = [
     accent: 'de Talents',
     sub: 'Nous accompagnons les artistes béninois vers l\'excellence avec une vision stratégique et personnalisée.',
     cta: 'Nos Talents',
-    image: 'https://ecotourismebenin.wordpress.com/wp-content/uploads/2017/03/photo-couv-enterrement.jpg?w=1200&h=800&crop=1',
+    image:'https://tourisme.gouv.bj/storage/media/album/POST_685a9f4972cf3685a9f4972cf6.jpg',
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const slides = [
     accent: 'Professionnel',
     sub: 'Un réseau d\'artistes, danseurs et performers d\'exception pour sublimer vos événements — du Festival Vodun Days de Ouidah jusqu\'à Cotonou.',
     cta: 'Notre Réseau',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR02cCfXj8srDZNYkpGPfDmLyDL7X64MTJj3IfoC2nyw&s=10',
+    image: 'https://www.gouv.bj/upload/images/albums/521900128319001736796518.jpg',
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const slides = [
     accent: 'Digitale',
     sub: 'Stratégie, création et amplification — votre présence dans l\'ère numérique, au cœur du Bénin.',
     cta: 'En Savoir Plus',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkrcfJ9TtLQHHPOav7dr3AWybbZE4eaUW2kaatb3Ubqg&s=10',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnQcsJdvbOeAybIsmAjYt7NcToWWFJVA87_cHpGm1rNJNRROmfa9pkpVyE&s=10',
   },
 ];
 

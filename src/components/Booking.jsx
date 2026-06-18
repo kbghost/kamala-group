@@ -4,7 +4,7 @@ import { PhoneCall, CheckCircle, XCircle, MapPin } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { bookingArtists } from '../data/booking';
 
-const WHATSAPP_NUMBER = "22997000000"; // Remplace par le vrai numéro
+const WHATSAPP_NUMBER = "22945036838"; // Remplace par le vrai numéro
 
 function ArtistCard({ artist, index }) {
   const [hov, setHov] = useState(false);

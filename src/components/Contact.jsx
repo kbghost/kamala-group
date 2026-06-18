@@ -14,10 +14,10 @@ const EMAILJS_TEMPLATE_ID = 'template_XXXXXXX';  // ← ton Template ID
 const EMAILJS_PUBLIC_KEY  = 'XXXXXXXXXXXX';       // ← ta Public Key
 // ─────────────────────────────────────────────────────────────
 
-const WHATSAPP_NUMBER = "22997000000"; // ← ton numéro WhatsApp
+const WHATSAPP_NUMBER = "22945036838"; // ← ton numéro WhatsApp
 
 const info = [
-  { icon: Phone,  label: 'Téléphone', value: '+229 97 00 00 00',    href: 'tel:+22997000000' },
+  { icon: Phone,  label: 'Téléphone', value: '+229 94 50 36 83',    href: 'tel:+22945036838' },
   { icon: Mail,   label: 'Email',     value: 'contact@kamalagroup.bj', href: 'mailto:contact@kamalagroup.bj' },
   { icon: MapPin, label: 'Adresse',   value: 'Abomey-Calavi, Bénin', href: '#' },
 ];
