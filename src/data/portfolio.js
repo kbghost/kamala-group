@@ -3,7 +3,7 @@ export const portfolioItems = [{
         title: "Festival Culturel de l'EACE",
         category: "Événements",
         description: "Festival annuel de l'École des Arts, Cultures et Esthétique de l'UAC, réunissant plus de 5 000 spectateurs",
-        image: "https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/701611840_1361706239102132_7289851491306714395_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s2048x1365&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFhxDqDVF7zgq8Ge8UgBIGtfXiUBwd8el59eJQHB3x6XuDyZPbROlFP_C4-4eBWE1QDwTeGbYaTaZdHfofTCAHh&_nc_ohc=R64-kJtxo-UQ7kNvwHmtr7c&_nc_oc=Adq0GW0yftSBqWU911gIHfH8xmbBWeOL78GaFbNIcax1VZD5YgMulZtVgPx7Mkod_D5BIAETwN5ElOZULv9HSVtU&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=emdVwFdyewwVDsfWN6ncLw&_nc_ss=7b2a8&oh=00_Af99fQZo1TuCplhTZKqO9NLyK6bxMdvfphwjOUNb9vHqMg&oe=6A393855",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPKkdm1MOllsJ7Q0TXN9cAT7zFpLjV5Eb_XBLyG9dzdQ&s",
         tags: ["Festival", "EACE", "UAC"],
         year: "2024",
     },
