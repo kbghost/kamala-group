@@ -10,7 +10,7 @@ import emailjs from 'emailjs-com';
 const EMAILJS_SERVICE_ID  = 'service_XXXXXXX';
 const EMAILJS_TEMPLATE_ID = 'template_XXXXXXX';
 const EMAILJS_PUBLIC_KEY  = 'XXXXXXXXXXXX';
-const WHATSAPP_NUMBER     = "22945036838"; // ← ton numéro WhatsApp
+const WHATSAPP_NUMBER     = "22997000000";
 // ─────────────────────────────────────────────────────────────
 
 /* ── Données des étapes ── */
@@ -148,7 +148,7 @@ function ContactStep({ data, onChange, errors }) {
   const fields = [
     { key: 'name',    label: 'Nom complet *',   type: 'text',  placeholder: 'Votre nom' },
     { key: 'email',   label: 'Email *',          type: 'email', placeholder: 'votre@email.com' },
-    { key: 'phone',   label: 'Téléphone',        type: 'tel',   placeholder: '+229 45 03 68 38' },
+    { key: 'phone',   label: 'Téléphone',        type: 'tel',   placeholder: '+229 97 00 00 00' },
     { key: 'details', label: 'Détails du projet',type: 'area',  placeholder: 'Décrivez votre projet en quelques lignes...' },
   ];
 
@@ -325,6 +325,7 @@ Tél   : ${contact.phone || '—'}
             initial={{ opacity: 0, y: 16 }} animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.55, delay: 0.1 }}
             className="font-display text-3xl md:text-4xl font-bold mb-3"
+            style={{ color: 'var(--kg-text)' }}
           >
             Obtenez votre{' '}
             <span className="italic brand-text">devis gratuit</span>
