@@ -23,7 +23,7 @@ const slides = [
     accent: "d'Exception",
     sub: 'Festivals, galas, conférences — nous transformons chaque moment en expérience inoubliable, à Abomey-Calavi et partout au Bénin.',
     cta: 'Découvrir',
-    image: 'https://image.cueup.io/unsafe/h:2194/q:75/rt:auto/w:1920/plain/https://cdn.cueup.io/user_uploads/images/3812e6b4-8e35-40f6-b736-4f22c136a27c.jpeg',
+    image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/472796193_455477914288785_4706179421113913649_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x854&ctp=s1280x854&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG4olU5l5VXYgH5IkG0nS73nbPQK1QL08-ds9ArVAvTz0H020wEifqYsS_vU9ch_mZJhOYyRdsccTVc74D3uQhl&_nc_ohc=iLa0nAjKiOoQ7kNvwHtfHZW&_nc_oc=AdoxOgwC4y7ITsXMbpAWtWQKnNefRyhm2BuPNfA4RS1eUEQKrNDLphc5WWErdkZH0CdOHBDr06LCIr1f_K5ar5yg&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=s82kINIVh6IM94SEUUsBfQ&_nc_ss=7b2a8&oh=00_Af_oqQN-b3twmfiwdcJrtvHJ6LNNh4oS22nnK5pdTwD-iQ&oe=6A3DE74F',
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const slides = [
     accent: 'Artistique',
     sub: 'De la conception à la scène, nous donnons vie aux projets culturels les plus audacieux, en lien avec les traditions béninoises.',
     cta: 'Explorer',
-    image: 'https://prod.jaspir.com/wp-content/uploads/2025/02/BIM-252.webp',
+    image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/472967444_455477507622159_3414300735162576758_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x854&ctp=s1280x854&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHuTl_zuKYyveS0SrA_ydBoOuNK6Vnrfd8640rpWet93_h-bV0W-j89AaABW0m4VLmFFsZayXxuOacRQEc7Mxsz&_nc_ohc=8h6RGwbzULcQ7kNvwGQ2Xgl&_nc_oc=AdoHo3uMcAFzUQY5675LP4eFZblsNhtsqUrVNtZx-ykUBfBkAlxOKPKslQqGgusyqIkDRWUvGdH5rB-2yMtVm0d-&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=iKXcSbhgggBmJ1WfINngbg&_nc_ss=7b2a8&oh=00_Af-OBgONqq4jDv9DzmqhrX_dWLfkHozBhHgoRTFMMuWixQ&oe=6A3DEBAA',
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const slides = [
     accent: 'de Talents',
     sub: 'Nous accompagnons les artistes béninois vers l\'excellence avec une vision stratégique et personnalisée.',
     cta: 'Nos Talents',
-    image: 'https://ecotourismebenin.wordpress.com/wp-content/uploads/2017/03/photo-couv-enterrement.jpg?w=1200&h=800&crop=1',
+    image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/473116081_455477574288819_1799441045599112283_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x854&ctp=s1280x854&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE8vLBHW9ryWy5qshaCEJIq1gcq-sFv7T_WByr6wW_tP6piU7esX7Hjfn5PwZ5tcgIgfv2hNhvPS4PElY_TUIDG&_nc_ohc=VB0sXw7g2p0Q7kNvwFO7Mxc&_nc_oc=AdrsiL8ecp6AFJ9-L7fIfDtSg4l97w5iKsvOMno-LFMn_AABZuTWRslBS7xuaR4DLmeOHc-OBkojUVXi2-MM5Jux&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=ieUPww6VkzuqyjKx7Jt8pg&_nc_ss=7b2a8&oh=00_Af8iomWeEhwDERO9gAMy4b5nX-_ht55HGPhj8QjY6fBmXg&oe=6A3DF8CC',
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const slides = [
     accent: 'Professionnel',
     sub: 'Un réseau d\'artistes, danseurs et performers d\'exception pour sublimer vos événements — du Festival Vodun Days de Ouidah jusqu\'à Cotonou.',
     cta: 'Notre Réseau',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR02cCfXj8srDZNYkpGPfDmLyDL7X64MTJj3IfoC2nyw&s=10',
+    image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/472712973_455477607622149_1270002635784166414_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x854&ctp=s1280x854&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGttMKgJmUC76K68vivNwJdJBdZUjJGhhMkF1lSMkaGE47W56eQC9WgfU6kJgx3y-l5XoijYUeOnCviNUrmG1ST&_nc_ohc=ZcsYX2j1fzMQ7kNvwHhsS9L&_nc_oc=Ado6e0NuMWx7iWRarpZvo28W7T7b0x0TyEHPM0VYyR6BJXz6OVrXO05JwVMW-pqZwoehI0a7cuU37ZSwVI5Wxjwa&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=B51vJou_TqaMIvxTdyklew&_nc_ss=7b2a8&oh=00_Af8-9JV7B7oj_v4wZ9kVlCUP7ZJluXiR3ll2RJPSSnjpmA&oe=6A3DCE62',
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const slides = [
     accent: 'Digitale',
     sub: 'Stratégie, création et amplification — votre présence dans l\'ère numérique, au cœur du Bénin.',
     cta: 'En Savoir Plus',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkrcfJ9TtLQHHPOav7dr3AWybbZE4eaUW2kaatb3Ubqg&s=10',
+    image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/473117220_455477927622117_3190928916008795255_n.jpg?stp=dst-jpg_tt6&cstp=mx854x1280&ctp=s854x1280&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH9AY7ZwNFrvHHi5JTshbmaTsvlrP7URgdOy-Ws_tRGB3eMhC9APKEIN9VRHUE1hwkZH04Ia4BDw5-SKIPe-XaC&_nc_ohc=Drv_I6cX094Q7kNvwHr7nX-&_nc_oc=Adpsv4Vz1GNHwpHyk0bufybslXG7Yzo8rAvjtV5UBxP2Vtjvk8io6dT1-i7-cYur86eRPjKfRHKsh_lvLKn3JvET&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=m9ovtOzXdv1Y2soAMqDO0w&_nc_ss=7b2a8&oh=00_Af-Lag_wOWIiODesuD6aOsQVPRD6-XwaOeNZsEHf7lPkIg&oe=6A3DD4D6',
   },
 ];
 
