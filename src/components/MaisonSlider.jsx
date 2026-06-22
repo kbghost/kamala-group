@@ -9,13 +9,13 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const WHATSAPP_NUMBER = "22997000000";
+const WHATSAPP_NUMBER = "22945036838";
 
 // ── Ajoute ici tes propres photos en remplaçant les chemins SVG ──
 const maisons = [
   {
     id: 1,
-    image: '/images/maisons/maison-1.svg',
+    image: '/images/maisons/maison-1.jpg',
     titre: 'Villa Moderne',
     description: '3 chambres · Piscine · Abomey-Calavi',
     prix: 'À partir de 150 000 FCFA / mois',
@@ -23,7 +23,7 @@ const maisons = [
   },
   {
     id: 2,
-    image: '/images/maisons/maison-2.svg',
+    image: '/images/maisons/maison-2.jpg',
     titre: 'Appartement Standing',
     description: '2 chambres · Climatisé · Cotonou Centre',
     prix: 'À partir de 80 000 FCFA / mois',
@@ -31,7 +31,7 @@ const maisons = [
   },
   {
     id: 3,
-    image: '/images/maisons/maison-3.svg',
+    image: '/images/maisons/maison-3.jpg',
     titre: 'Villa de Plage',
     description: '4 chambres · Bord de mer · Fidjrossè',
     prix: 'À partir de 250 000 FCFA / mois',
@@ -39,7 +39,7 @@ const maisons = [
   },
   {
     id: 4,
-    image: '/images/maisons/maison-4.svg',
+    image: '/images/maisons/maison-4.jpg',
     titre: 'Villa Prestige',
     description: '5 chambres · Jardin · Cadjèhoun',
     prix: 'À partir de 300 000 FCFA / mois',
@@ -47,7 +47,7 @@ const maisons = [
   },
   {
     id: 5,
-    image: '/images/maisons/maison-5.svg',
+    image: '/images/maisons/maison-5.jpg',
     titre: 'Studio Meublé',
     description: '1 chambre · Tout équipé · Calavi',
     prix: 'À partir de 40 000 FCFA / mois',
