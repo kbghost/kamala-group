@@ -14,14 +14,14 @@ const MOBILE_BP     = 768;
 // Pour remplacer une image : pose ton fichier dans public/images/services/
 // et mets à jour le champ `image` ci-dessous.
 const serviceImages = [
-  { id: 1, image: '/images/services/service-1.svg', titre: 'Événementiel',         label: 'Organisation de A à Z' },
-  { id: 2, image: '/images/services/service-2.svg', titre: 'Production Artistique', label: 'Création & Spectacles' },
-  { id: 3, image: '/images/services/service-3.svg', titre: 'Management de Talents', label: 'Accompagnement Artistes' },
-  { id: 4, image: '/images/services/service-4.svg', titre: 'Booking',               label: 'Réseau & Mise en scène' },
-  { id: 5, image: '/images/services/service-5.svg', titre: 'Communication Digitale',label: 'Stratégie & Réseaux' },
-  { id: 6, image: '/images/services/service-6.svg', titre: 'Formation',             label: 'Ateliers & Masterclass' },
-  { id: 7, image: '/images/services/service-7.svg', titre: 'Création Graphique',    label: 'Identité & Design' },
-  { id: 8, image: '/images/services/service-8.svg', titre: 'Couverture Médiatique', label: 'Photo · Vidéo · Presse' },
+  { id: 1, image: '/images/services/service-1.jpeg', titre: 'Événementiel',         label: 'Organisation de A à Z' },
+  { id: 2, image: '/images/services/service-2.jpeg', titre: 'Production Artistique', label: 'Création & Spectacles' },
+  { id: 3, image: '/images/services/service-3.jpeg', titre: 'Management de Talents', label: 'Accompagnement Artistes' },
+  { id: 4, image: '/images/services/service-4.jpeg', titre: 'Booking',               label: 'Réseau & Mise en scène' },
+  { id: 5, image: '/images/services/service-5.jpeg', titre: 'Communication Digitale',label: 'Stratégie & Réseaux' },
+  { id: 6, image: '/images/services/service-6.jpeg', titre: 'Formation',             label: 'Ateliers & Masterclass' },
+  { id: 7, image: '/images/services/service-7.jpeg', titre: 'Création Graphique',    label: 'Identité & Design' },
+  { id: 8, image: '/images/services/service-8.jpeg', titre: 'Couverture Médiatique', label: 'Photo · Vidéo · Presse' },
 ];
 
 const N = serviceImages.length;
