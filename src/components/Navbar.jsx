@@ -6,15 +6,17 @@ import logoImg from '../assets/logo/kamala-logo.jpeg';
 import ThemeToggle from './ThemeToggle';
 import { useTheme } from '../context/ThemeContext';
 
-const WHATSAPP_NUMBER = "22945036838"; // Remplace par le vrai numéro
+const WHATSAPP_NUMBER = "22997000000";
 
 const navLinks = [
-  { href: '#accueil',  label: 'Accueil' },
-  { href: '#apropos',  label: 'À propos' },
-  { href: '#services', label: 'Services' },
-  { href: '#booking',  label: 'Booking' },
-  { href: '#portfolio',label: 'Portfolio' },
-  { href: '#contact',  label: 'Contact' },
+  { href: '#accueil',          label: 'Accueil' },
+  { href: '#apropos',          label: 'À propos' },
+  { href: '#services',         label: 'Services' },
+  { href: '#location-maisons', label: 'Maisons' },
+  { href: '#location-voitures',label: 'Voitures' },
+  { href: '#booking',          label: 'Booking' },
+  { href: '#portfolio',        label: 'Portfolio' },
+  { href: '#contact',          label: 'Contact' },
 ];
 
 export default function Navbar() {
