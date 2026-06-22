@@ -23,7 +23,7 @@ const slides = [
     accent: "d'Exception",
     sub: 'Festivals, galas, conférences — nous transformons chaque moment en expérience inoubliable, à Abomey-Calavi et partout au Bénin.',
     cta: 'Découvrir',
-    image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/472796193_455477914288785_4706179421113913649_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x854&ctp=s1280x854&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG4olU5l5VXYgH5IkG0nS73nbPQK1QL08-ds9ArVAvTz0H020wEifqYsS_vU9ch_mZJhOYyRdsccTVc74D3uQhl&_nc_ohc=iLa0nAjKiOoQ7kNvwHtfHZW&_nc_oc=AdoxOgwC4y7ITsXMbpAWtWQKnNefRyhm2BuPNfA4RS1eUEQKrNDLphc5WWErdkZH0CdOHBDr06LCIr1f_K5ar5yg&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=s82kINIVh6IM94SEUUsBfQ&_nc_ss=7b2a8&oh=00_Af_oqQN-b3twmfiwdcJrtvHJ6LNNh4oS22nnK5pdTwD-iQ&oe=6A3DE74F',
+    image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/472846552_455477587622151_7304308355443734696_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x854&ctp=s1280x854&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF6KSIVF7e_DnchmspXFfBaQrc2pydWc0ZCtzanJ1ZzRqonCZikPnuSuBD_RdgHgB7H7O3UkkT1YudI12ad3K5V&_nc_ohc=WTeiVqqnqLcQ7kNvwHGABu5&_nc_oc=AdpKc36vJUfcqN0aOKRwRXj37D48HKFRDLXSJBW1lQ8Zm6FNxhRk1dUsmd2u5-CqDm6Fsv5lrjtKHMr3WcV3MZcl&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=AzSrK1VBj1bw1xdlEyFDEQ&_nc_ss=7b2a8&oh=00_Af_z2PiDC2yhaWktI8RxmmDv43kySVjV70VqmZSGv-lzAA&oe=6A3E7BE4',
   },
   {
     id: 2,
