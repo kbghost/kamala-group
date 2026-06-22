@@ -3,6 +3,8 @@ import HeroSlider      from './components/HeroSlider';
 import StatsBanner     from './components/StatsBanner';
 import About           from './components/About';
 import Services        from './components/Services';
+import MaisonSlider    from './components/MaisonSlider';
+import VoitureSlider   from './components/VoitureSlider';
 import Booking         from './components/Booking';
 import Devis           from './components/Devis';
 import Portfolio       from './components/Portfolio';
@@ -23,6 +25,8 @@ export default function App() {
         <StatsBanner />
         <About />
         <Services />
+        <MaisonSlider />
+        <VoitureSlider />
         <Booking />
         <Devis />
         <Portfolio />
