@@ -61,6 +61,24 @@ const slides = [
     cta: 'En Savoir Plus',
     image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/473117220_455477927622117_3190928916008795255_n.jpg?stp=dst-jpg_tt6&cstp=mx854x1280&ctp=s854x1280&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH9AY7ZwNFrvHHi5JTshbmaTsvlrP7URgdOy-Ws_tRGB3eMhC9APKEIN9VRHUE1hwkZH04Ia4BDw5-SKIPe-XaC&_nc_ohc=Drv_I6cX094Q7kNvwHr7nX-&_nc_oc=Adpsv4Vz1GNHwpHyk0bufybslXG7Yzo8rAvjtV5UBxP2Vtjvk8io6dT1-i7-cYur86eRPjKfRHKsh_lvLKn3JvET&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=m9ovtOzXdv1Y2soAMqDO0w&_nc_ss=7b2a8&oh=00_Af-Lag_wOWIiODesuD6aOsQVPRD6-XwaOeNZsEHf7lPkIg&oe=6A3DD4D6',
   },
+  {
+    id: 6,
+    tag: '02 — Location Immobilière',
+    title: 'Location de',
+    accent: 'Maisons',
+    sub: 'Villas, appartements et studios de standing à Abomey-Calavi, Cotonou et environs',
+    cta: 'Explorer',
+    image: 'https://assets.barnes-international.com/bdata/property/2026-06/f82ebe48-fe86-5d70-95aa-d60f54cf4c26/a08Pg00001LS36PIAT_R6II0720_converted.jpg?width=800',
+  },
+  {
+    id: 7,
+    tag: '02 — Location de Véhicules',
+    title: "Location d'",
+    accent: 'Automobiles',
+    sub: 'Berlines, SUV, vans et 4x4 avec ou sans chauffeur — disponibles 7j/7 à Cotonou et Abomey-Calavi.',
+    cta: 'Explorer',
+    image: 'https://www.amlbenin.com/public/img/medium/DSC5013jpg_6595634784d18.jpg',
+  }
 ];
 
 function SlideContent({ slide }) {
