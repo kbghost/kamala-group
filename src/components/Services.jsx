@@ -14,10 +14,10 @@ const MOBILE_BP     = 768;
 // Pour remplacer une image : pose ton fichier dans public/images/services/
 // et mets à jour le champ `image` ci-dessous.
 const serviceImages = [
-  { id: 1, image: '/images/services/service-1.jpeg', titre: 'Événementiel',         label: 'Organisation de A à Z' },
+  { id: 1, image: '/images/services/service-4.jpeg', titre: 'Événementiel',         label: 'Organisation de A à Z' },
   { id: 2, image: '/images/services/service-2.jpeg', titre: 'Production Artistique', label: 'Création & Spectacles' },
-  { id: 3, image: '/images/services/service-3.jpeg', titre: 'Management de Talents', label: 'Accompagnement Artistes' },
-  { id: 4, image: '/images/services/service-4.jpeg', titre: 'Booking',               label: 'Réseau & Mise en scène' },
+  { id: 3, image: '/images/services/service-1.jpeg', titre: 'Management de Talents', label: 'Accompagnement Artistes' },
+  { id: 4, image: '/images/services/service-3.jpeg', titre: 'Booking',               label: 'Réseau & Mise en scène' },
   { id: 5, image: '/images/services/service-5.jpeg', titre: 'Communication Digitale',label: 'Stratégie & Réseaux' },
   { id: 6, image: '/images/services/service-6.jpeg', titre: 'Formation',             label: 'Ateliers & Masterclass' }
 ];
