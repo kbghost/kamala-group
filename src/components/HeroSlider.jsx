@@ -32,7 +32,7 @@ const slides = [
     accent: 'Artistique',
     sub: 'De la conception à la scène, nous donnons vie aux projets culturels les plus audacieux, en lien avec les traditions béninoises.',
     cta: 'Explorer',
-    image: 'https://scontent.fcoo5-1.fna.fbcdn.net/v/t39.30808-6/472967444_455477507622159_3414300735162576758_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x854&ctp=s1280x854&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHuTl_zuKYyveS0SrA_ydBoOuNK6Vnrfd8640rpWet93_h-bV0W-j89AaABW0m4VLmFFsZayXxuOacRQEc7Mxsz&_nc_ohc=8h6RGwbzULcQ7kNvwGQ2Xgl&_nc_oc=AdoHo3uMcAFzUQY5675LP4eFZblsNhtsqUrVNtZx-ykUBfBkAlxOKPKslQqGgusyqIkDRWUvGdH5rB-2yMtVm0d-&_nc_zt=23&_nc_ht=scontent.fcoo5-1.fna&_nc_gid=iKXcSbhgggBmJ1WfINngbg&_nc_ss=7b2a8&oh=00_Af-OBgONqq4jDv9DzmqhrX_dWLfkHozBhHgoRTFMMuWixQ&oe=6A3DEBAA',
+    image: 'https://lanation.bj/storage/assets/2024/01/8h9AlwoRBDcU4n6v_Capture_d%E2%80%99%C3%A9cran_2024-01-26_070734.png.webp',
   },
   {
     id: 3,
