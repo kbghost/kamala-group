@@ -65,7 +65,7 @@ export default function About() {
               <div className="absolute bottom-4 right-4 w-16 h-16 border-r-2 border-b-2 border-kg-red" />
               <div className="absolute bottom-6 left-6 glass-card px-5 py-3">
                 <div className="section-label mb-0.5">Fondé en</div>
-                <div className="font-display text-2xl font-bold" style={{ color: 'var(--kg-text)' }}>2018</div>
+                <div className="font-display text-2xl font-bold" style={{ color: 'var(--kg-text)' }}>2023</div>
               </div>
             </div>
             <div className="absolute -bottom-6 -right-6 w-20 h-20 bg-white p-2 hidden lg:flex items-center justify-center shadow-2xl">
