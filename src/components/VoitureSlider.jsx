@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const WHATSAPP_NUMBER = "22997000000";
+const WHATSAPP_NUMBER = "22945036838";
 
 // ── Ajoute ici tes propres photos en remplaçant les chemins SVG ──
 const voitures = [
   {
     id: 1,
-    image: '/images/voitures/voiture-1.svg',
+    image: '/images/voitures/voiture-1.jpg',
     titre: 'Berline Premium',
     description: 'Climatisé · GPS · Chauffeur disponible',
     places: '5 places',
@@ -23,7 +23,7 @@ const voitures = [
   },
   {
     id: 2,
-    image: '/images/voitures/voiture-2.svg',
+    image: '/images/voitures/voiture-2.jpg',
     titre: 'SUV Luxe',
     description: 'Tout-terrain · Longue distance · 4x4',
     places: '7 places',
@@ -32,7 +32,7 @@ const voitures = [
   },
   {
     id: 3,
-    image: '/images/voitures/voiture-3.svg',
+    image: '/images/voitures/voiture-3.jpg',
     titre: 'Citadine Sport',
     description: 'Économique · Urbaine · Automatique',
     places: '5 places',
@@ -41,7 +41,7 @@ const voitures = [
   },
   {
     id: 4,
-    image: '/images/voitures/voiture-4.svg',
+    image: '/images/voitures/voiture-4.jpg',
     titre: 'Van 9 Places',
     description: 'Groupes · Événements · Transferts aéroport',
     places: '9 places',
@@ -50,7 +50,7 @@ const voitures = [
   },
   {
     id: 5,
-    image: '/images/voitures/voiture-5.svg',
+    image: '/images/voitures/voiture-5.jpg',
     titre: 'Pick-Up 4x4',
     description: 'Tout-terrain · Chantiers · Brousse',
     places: '5 places',
