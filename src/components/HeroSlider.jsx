@@ -63,7 +63,7 @@ const slides = [
   },
   {
     id: 6,
-    tag: '02 — Location Immobilière',
+    tag: '06 — Location Immobilière',
     title: 'Location de',
     accent: 'Maisons',
     sub: 'Villas, appartements et studios de standing à Abomey-Calavi, Cotonou et environs',
@@ -72,7 +72,7 @@ const slides = [
   },
   {
     id: 7,
-    tag: '02 — Location de Véhicules',
+    tag: '07 — Location de Véhicules',
     title: "Location d'",
     accent: 'Automobiles',
     sub: 'Berlines, SUV, vans et 4x4 avec ou sans chauffeur — disponibles 7j/7 à Cotonou et Abomey-Calavi.',
