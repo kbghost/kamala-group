@@ -19,9 +19,7 @@ const serviceImages = [
   { id: 3, image: '/images/services/service-3.jpeg', titre: 'Management de Talents', label: 'Accompagnement Artistes' },
   { id: 4, image: '/images/services/service-4.jpeg', titre: 'Booking',               label: 'Réseau & Mise en scène' },
   { id: 5, image: '/images/services/service-5.jpeg', titre: 'Communication Digitale',label: 'Stratégie & Réseaux' },
-  { id: 6, image: '/images/services/service-6.jpeg', titre: 'Formation',             label: 'Ateliers & Masterclass' },
-  { id: 7, image: '/images/services/service-7.jpeg', titre: 'Création Graphique',    label: 'Identité & Design' },
-  { id: 8, image: '/images/services/service-8.jpeg', titre: 'Couverture Médiatique', label: 'Photo · Vidéo · Presse' },
+  { id: 6, image: '/images/services/service-6.jpeg', titre: 'Formation',             label: 'Ateliers & Masterclass' }
 ];
 
 const N = serviceImages.length;
